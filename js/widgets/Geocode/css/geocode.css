@@ -1,0 +1,117 @@
+/**
+ * geocode.css
+ * 
+ * Copyright (c) 2014 Spatial Agent
+ * 
+ * This file is part of darcMap.
+ *	
+ * darcMap is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * darcMap is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with darcMap.  If not, see <http://www.gnu.org/licenses/>.
+ *
+**/
+
+#mapDiv #geocodeWidgetDiv
+{
+	display:none;	
+}
+
+#mapDiv #geocodeDijit
+{
+	position: absolute;
+	right:5px;
+	top:4px;
+	z-index:42;
+	display:block;
+	width:240px;
+}
+
+.widgets_Geocode  .geocodeButton {
+    -moz-user-select: none;
+    background-color:rgba(0,0,0,0.0);
+    border: 1px solid #666666;
+    -moz-border-radius-topleft: 3px;
+	-moz-border-radius-topright:3px;
+	-moz-border-radius-bottomleft:3px;
+	-moz-border-radius-bottomright:3px;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-top-right-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-webkit-border-bottom-right-radius:3px;
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+	border-bottom-left-radius:3px;
+	border-bottom-right-radius:3px;
+    cursor: pointer;
+    padding: 0px; 
+}
+
+.widgets_Geocode .geocodeIcon
+{
+	width: 29.5px;
+    height: 30px;
+    padding: 0px;
+    background-color:rgba(0,0,0,0.0);
+}
+
+.widgets_Geocode .geocodeIcon.black, .widgets_Geocode .geocodeIcon.blue, .widgets_Geocode .geocodeIcon.green {  
+    background: url(../images/geocode_light.png) no-repeat center center; 
+}
+
+.widgets_Geocode .geocodeIcon.white {
+    background: url(../images/geocode_dark.png) no-repeat center center;
+}
+
+
+.widgets_Geocode .geocodeButton .dijitButtonNode {
+    border: none;
+    background-color: rgba(0,0,0,0.0);
+    padding: 0px;
+}
+
+@media all and (max-width: 480px) 
+{
+	#mapDiv #geocodeDijit
+	{
+		left:45px;
+		top:42px;
+		z-index:40;
+		display:none;
+		width:380px;
+	}
+	
+	#mapDiv #geocodeWidgetDiv
+	{
+		display:block;
+	}
+}
+@media all and (max-width: 400px) 
+{
+	#mapDiv #geocodeDijit
+	{
+		width:280px;
+	}
+}
+/*Smartphone (portrait) */
+@media all and (max-width: 320px) 
+{
+		
+	#mapDiv #geocodeDijit
+	{
+		width:240px;
+	}
+	
+
+}
+
+
+ 

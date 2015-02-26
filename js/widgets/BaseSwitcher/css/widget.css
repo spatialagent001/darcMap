@@ -1,0 +1,100 @@
+/**
+ * widget.css
+ * 
+ * Copyright (c) 2014 Spatial Agent
+ * 
+ * This file is part of darcMap.
+ *	
+ * darcMap is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * darcMap is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with darcMap.  If not, see <http://www.gnu.org/licenses/>.
+ *
+**/
+
+/* tab styles*/
+.widget_BaseSwitcher .tabButtonIcon.black, .widget_BaseSwitcher .tabButtonIcon.blue, .widget_BaseSwitcher .tabButtonIcon.green{
+  background-image: url(../images/icon_light.png);
+}
+
+.widget_BaseSwitcher .tabButtonIcon.white {
+  background-image: url(../images/icon_dark.png);
+}
+
+.widget_BaseSwitcher .theme_white {
+   color:#000000;
+}
+
+.widget_BaseSwitcher .theme_black {
+   color:#FFFFFF;
+}
+
+/* float styles*/
+.widget_BaseSwitcher .toolbarButtonIcon.blue, .widget_BaseSwitcher .toolbarButtonIcon.black, .widget_BaseSwitcher .toolbarButtonIcon.green {  
+    background: url(../images/icon_light.png) no-repeat center center; 
+}
+.widget_BaseSwitcher .toolbarButtonIcon.white {
+    background: url(../images/icon_dark.png) no-repeat center center;
+}
+.widget_BaseSwitcher .floatingPaneIcon.black, .widget_BaseSwitcher .floatingPaneIcon.blue, .widget_BaseSwitcher .floatingPaneIcon.green{
+  background-image: url(../images/icon_light.png);
+}
+
+.widget_BaseSwitcher .floatingPaneIcon.white {
+  background-image: url(../images/icon_dark.png);
+}
+
+/*widget styles*/
+#basemapDigit{
+  padding-top:25px;
+  z-index: 1;
+  position:relative;
+  overflow: visible !important;
+  font-size: 60%;
+}
+
+#basemapDigit .esriBasemapGalleryLabelContainer
+{
+	overflow: visible !important;
+}
+	
+
+.esriBasemapGallerySelectedNode .esriBasemapGalleryThumbnail{ 
+  border-color: #66FFFF !important; 
+}
+
+/* Responsive Design Media Queries*/
+/*Smartphone (portrait) */
+@media all and (max-width: 360px) 
+{
+	#basemapDigit .esriBasemapGallery
+	{
+		margin-top: 15px;
+		margin-left: 5px;
+	    margin-right: 5px;
+		text-align: center;
+		
+	}
+	#basemapDigit .esriBasemapGalleryNode
+	{
+		font-size: 75%;
+		margin-top: 5px;
+		margin-left: 5px;
+	    margin-right: 5px;
+	    margin-bottom: 10px;
+	}
+	
+	#basemapDigit .esriBasemapGalleryThumbnail
+	{
+		width:75px;
+		height:50px;	
+	}
+}

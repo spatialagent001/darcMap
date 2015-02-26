@@ -1,0 +1,64 @@
+/**
+ * widget.css
+ * 
+ * Copyright (c) 2014 Spatial Agent
+ * 
+ * This file is part of darcMap.
+ *	
+ * darcMap is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * darcMap is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with darcMap.  If not, see <http://www.gnu.org/licenses/>.
+ *
+**/
+
+.widget_GeoLocation .tabButtonIcon.black, .widget_GeoLocation .tabButtonIcon.blue, .widget_GeoLocation .tabButtonIcon.green{
+  background-image: url(../images/icon_light.png);
+}
+
+.widget_GeoLocation .tabButtonIcon.white {
+  background-image: url(../images/icon_dark.png);
+}
+
+.widget_GeoLocation .theme_white {
+   color:#000000;
+}
+
+.widget_GeoLocation .theme_black {
+   color:#FFFFFF;
+}
+
+
+/* floating widget styles*/
+
+.widget_GeoLocation .toolbarButtonIcon.blue, .widget_GeoLocation .toolbarButtonIcon.black, .widget_GeoLocation .toolbarButtonIcon.green {  
+    background: url(../images/icon_light.png) no-repeat center center; 
+}
+.widget_GeoLocation .toolbarButtonIcon.white {
+    background: url(../images/icon_dark.png) no-repeat center center;
+}
+.widget_GeoLocation .floatingPaneIcon.black, .widget_GeoLocation .floatingPaneIcon.blue, .widget_GeoLocation .floatingPaneIcon.green{
+  background-image: url(../images/icon_light.png);
+}
+
+.widget_GeoLocation .floatingPaneIcon.white {
+  background-image: url(../images/icon_dark.png);
+}
+
+/*widget styles*/
+
+
+
+/* Responsive Design Media Queries*/
+/*Smartphone (portrait) */
+@media all and (max-width: 360px) 
+{
+}

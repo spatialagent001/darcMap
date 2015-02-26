@@ -1,0 +1,80 @@
+/**
+ * widget.css
+ * 
+ * Copyright (c) 2014 Spatial Agent
+ * 
+ * This file is part of darcMap.
+ *	
+ * darcMap is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * darcMap is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with darcMap.  If not, see <http://www.gnu.org/licenses/>.
+ *
+**/
+
+.widget_Legend .tabButtonIcon.black, .widget_Legend .tabButtonIcon.blue, .widget_Legend .tabButtonIcon.green{
+  background-image: url(../images/icon_light.png);
+}
+
+.widget_Legend .tabButtonIcon.white {
+  background-image: url(../images/icon_dark.png);
+}
+
+.widget_Legend .theme_white {
+   color:#000000;
+}
+
+.widget_Legend .theme_black {
+   color:#FFFFFF;
+}
+
+
+/* floating widget styles*/
+
+.widget_Legend .toolbarButtonIcon.blue, .widget_Legend .toolbarButtonIcon.black, .widget_Legend .toolbarButtonIcon.green {  
+    background: url(../images/icon_light.png) no-repeat center center; 
+}
+.widget_Legend .toolbarButtonIcon.white {
+    background: url(../images/icon_dark.png) no-repeat center center;
+}
+.widget_Legend .floatingPaneIcon.black, .widget_Legend .floatingPaneIcon.blue, .widget_Legend .floatingPaneIcon.green{
+  background-image: url(../images/icon_light.png);
+}
+
+.widget_Legend .floatingPaneIcon.white {
+  	background-image: url(../images/icon_dark.png);
+}
+
+/*widget styles*/
+#legendDigit
+{
+	padding:25px;
+	box-sizing: border-box;
+}
+
+#legendDigit .esriLegendServiceLabel
+{
+  	font-size: 70%;
+}
+
+#legendDigit .esriLegendLayerLabel
+{
+  	font-size: 70%;
+}
+
+#legendDigit .esriLegendLayer td
+{
+  	font-size: 70%;
+}
+#legendDigit .esriLegendLayer td img
+{
+  	background-color:#FFFFFF;
+}

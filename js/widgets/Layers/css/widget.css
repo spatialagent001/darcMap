@@ -1,0 +1,156 @@
+/**
+ * widget.css
+ *
+ * Copyright (c) 2014 Spatial Agent
+ *
+ * This file is part of darcMap.
+ *
+ * darcMap is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * darcMap is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with darcMap.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ **/
+
+.widget_Layers .tabButtonIcon.black, .widget_Layers .tabButtonIcon.blue, .widget_Layers .tabButtonIcon.green {
+	background-image: url(../images/icon_light.png);
+}
+
+.widget_Layers .tabButtonIcon.white {
+	background-image: url(../images/icon_dark.png);
+}
+
+/* floating widget styles*/
+
+.widget_Layers .toolbarButtonIcon.blue, .widget_Layers .toolbarButtonIcon.black, .widget_Layers .toolbarButtonIcon.green {
+	background: url(../images/icon_light.png) no-repeat center center;
+}
+.widget_Layers .toolbarButtonIcon.white {
+	background: url(../images/icon_dark.png) no-repeat center center;
+}
+.widget_Layers .floatingPaneIcon.black, .widget_Layers .floatingPaneIcon.blue, .widget_Layers .floatingPaneIcon.green {
+	background-image: url(../images/icon_light.png);
+}
+
+.widget_Layers .floatingPaneIcon.white {
+	background-image: url(../images/icon_dark.png);
+}
+
+/*widget styles*/
+
+.widget_Layers_ui {
+	font-size: 15px;
+	padding: 0px;
+	vertical-align: middle;
+}
+
+.widget_Layers_ui .layer_list {
+	width: 100%;
+	height: 100%;
+}
+.widget_Layers_ui .service_renderer {
+	margin-bottom: 5px;
+	overflow: hidden;
+	border: 1px solid #d9dde0;
+	border-radius: 5px;
+	padding: 5px;
+	width: 100%;
+	box-sizing: border-box;
+	line-height: 20px;
+}
+
+.widget_Layers_ui .service_renderer.collapsed {
+	height: 43px;
+}
+
+.widget_Layers_ui .service_renderer:hover {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.widget_Layers_ui.white .service_renderer:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.widget_Layers_ui .service_renderer .layer_name {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.widget_Layers_ui .toolIcon {
+	width: 25px;
+	height: 25px;
+	background-repeat: no-repeat;
+	text-align: "center";
+	margin: 0px 5px 0px 5px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.widget_Layers_ui .toolIcon:hover {
+	cursor: pointer;
+}
+
+.widget_Layers_ui .visibleImg {
+	background-image: url("../images/visible_unchecked.png");
+	border: 1px solid #d9dde0;
+	border-radius: 5px;
+}
+.widget_Layers_ui .visibleImg.checked {
+	background-image: url("../images/visible_check.png");
+}
+.widget_Layers_ui .groupIcon {
+	width: 22px;
+	height: 22px;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: "center";
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	vertical-align: middle;
+}
+.widget_Layers_ui .groupIcon:hover {
+	cursor: pointer;
+}
+
+.widget_Layers_ui .groupIconTurn {
+	-moz-transform: scale(1) rotate(90deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+	-webkit-transform: scale(1) rotate(90deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+	-o-transform: scale(1) rotate(90deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+	-ms-transform: scale(1) rotate(90deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+	transform: scale(1) rotate(90deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+}
+
+.widget_Layers_ui .groupImg {
+	background-image: url("../images/groupmarker_dark.png");
+}
+
+.widget_layers_ui .layer_renderer {
+	position: relative margin :0px;
+	width: 96%;
+	padding: 0px 0px 0px 15px;
+	line-height: 12px;
+}
+
+.widget_layers_ui .layer_renderer .layer_name {
+	padding: 0px;
+	font-size: 17px;
+	font-weight: normal;
+	display: inline-block;
+	vertical-align: middle;
+}
+/* Responsive Design Media Queries*/
+/*Smartphone (portrait) */
+@media all and (max-width: 360px) {
+}

@@ -1,0 +1,72 @@
+/*map styles (start)*/
+
+html,body {
+	color: #000000;
+}
+
+/*map styles (end)*/
+
+/*tabWidget styles (start)*/
+.tabButtonIcon {
+  background-color:rgba(255,255,255,.95);
+}
+
+.tabContainer
+{
+  	background-color:rgba(255,255,255,0);
+  	color:#000000;
+}
+
+.tabContent
+{
+  	background-color:rgba(255,255,255,.95);
+  	color:#000000;
+}
+
+
+.tabContainerTitle
+{
+	color:#000000;
+  	background-color:rgba(255,255,255,1);
+}
+
+/*tabWidget styles (end)*/
+
+/*geocode dijit styles (start)*/
+.simpleGeocoder .esriGeocoderContainer .esriGeocoder .esriGeocoderSearch {
+    background: url("../images/searchicon_dark.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.simpleGeocoder .esriGeocoderContainer .esriGeocoderResults li:hover
+{
+  	background-color:rgba(102,255,255,.65) !important;
+}
+
+.simpleGeocoder .esriGeocoderContainer .esriGeocoder{
+    border: 1px solid #666666;
+    height: 30px;
+}
+ /*geocode dijit styles (end)*/
+/*floating widget styles (start)*/
+
+.dojoxFloatingPaneContent{
+	background-color:rgba(255,255,255,.9);
+}
+
+.dojoxFloatingPaneTitle{
+	background-color:rgba(255,255,255,1);
+}
+.dojoxFloatingPane {
+	background-color:rgba(255,255,255,.2);
+}
+.minimizeBtn {
+    background-image: url("../images/minimize_dark.png");
+}
+.maximizeBtn {
+    background-image: url("../images/maximize_dark.png");
+}
+.closeBtn {
+    background-image: url("../images/close_dark.png");
+}
+/*floating widget styles (end)*/
+/

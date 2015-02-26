@@ -1,0 +1,320 @@
+/* map Styles (start)*/
+
+html,body {
+	padding:0;
+	margin:0;
+	height:100%;
+	width:100%;
+	color: #FFFFFF;
+}
+
+.englebert
+{
+	font-family: 'Englebert', cursive !Important;
+}
+.opensans
+{
+	font-family: 'Open Sans', sans-serif !Important;
+}
+.satisfy
+{
+	font-family: 'Satisfy', cursive !Important;
+}
+
+
+/* map Styles (start)*/
+#mapDiv {
+	padding:0;
+	margin:0;
+	width:100%;
+	height:100%;
+}
+
+.esriRtl label {
+/*Example of a rule that will be applied if the app is viewed in a browser wtih a RTL locale like Hebrew or Arabic.*/
+}
+
+.claro .esriSimpleSlider{
+	top:95px;
+	z-index:1;
+}
+/*map styles (end)*/
+
+/* widget styles (start)*/
+#mapDiv #headerWidgetDiv
+{
+	position: absolute;
+	right:100px;
+	z-index:41;
+	left:-1px;
+	top:-1px;
+	width:100%;
+}
+
+#mapDiv .tabWidgetDiv
+{
+	position: absolute;
+	right:20px;
+	z-index:40;
+}
+
+#mapDiv .tabWidgetDiv._1
+{
+	top:50px;
+}
+#mapDiv .tabWidgetDiv._2
+{
+	top:82px;
+}
+#mapDiv .tabWidgetDiv._3
+{
+	top:114px;
+}
+#mapDiv .tabWidgetDiv._4
+{
+	top:146px;
+}
+#mapDiv .tabWidgetDiv._5
+{
+	top:178px;
+}
+
+#mapDiv #toolbarWidgetDiv
+{
+	position: absolute;
+	right:248px;
+	top:0px;
+	z-index:42;
+}
+
+#mapDiv .toolbarButton
+{
+	top:4px;
+	z-index:42;
+}
+
+
+/* widget styles (end)*/
+
+/*tabWidget styles (start)*/
+.tabButtonIcon {
+  background-image: url(../images/widget.png);
+  background-repeat: no-repeat;
+  cursor:pointer;
+  height: 30px;
+  width: 30px;
+  padding: 0px;
+  margin: 6px,6px,0px,6px;
+  background-position: center center;
+  border: 1px solid #777777;
+  border-right: 0px solid #999999;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright:0px;
+  -moz-border-radius-bottomleft:5px;
+  -moz-border-radius-bottomright:0px;
+  -webkit-border-top-left-radius:5px;
+  -webkit-border-top-right-radius:0px;
+  -webkit-border-bottom-left-radius:5px;
+  -webkit-border-bottom-right-radius:0px;
+  border-top-left-radius:5px;
+  border-top-right-radius:0px; 
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:0px;
+  visibility:hidden;
+}
+
+.tabContainer
+{
+	z-index: 41;
+  	position:absolute;
+  	top:0px;
+  	overflow:hidden;
+  	color:#FFFFFF;
+  	font-size: 100%;
+  	border-left:1px solid #777777;
+  	padding: 0px;
+  	visibility:hidden;
+}
+
+.tabContent
+{
+	z-index: 41;
+  	position:absolute;
+  	top:0px;
+  	/*overflow-x:hidden;
+  	overflow-y: auto !important;*/
+  	color:#FFFFFF;
+  	font-size: 120%;
+  	border-left: 0px solid #777777;
+  	padding: 0px;
+ 
+}
+
+.tabWidgetContent
+{
+	padding: 8px;
+	overflow-y: auto;
+}
+
+.tabContainerTitle
+{
+	
+	padding: 8px;
+  	color:#FFFFFF;
+  	font-size: 100%;
+}
+
+/*tabWidget styles (end)*/
+
+/* dijit styles (start)*/
+.simpleGeocoder .esriGeocoderContainer
+{
+	width:100%;
+}
+.simpleGeocoder .esriGeocoderContainer .esriGeocoder .esriGeocoderSearch {
+    cursor: pointer;
+    margin-left: 6px;
+}
+.simpleGeocoder .esriGeocoderIcon {
+	margin-top: 7px;
+}
+
+.simpleGeocoder .esriGeocoderContainer .esriGeocoder
+{
+    height: 30px;
+}
+/* dijit styles (end)*/
+
+
+/*floating widget styles (start)*/
+.dojoxFloatingPaneCanvas{
+	background-color:transparent;
+}
+
+.dojoxFloatingPaneTitle{
+	border: solid 0px #999;
+}
+
+
+.floatingPane{
+   	overflow:hidden; 	
+   	border: solid 1px #999;
+  	border-radius:10px;
+  	-moz-border-radius:10px;
+  	-webkit-border-radius: 10px; 
+  	padding:0px !important;
+  	box-shadow: 2px 2px 2px #888888;
+}
+
+.closeBtn {
+    position: absolute;
+    right: 4px;
+    top: 4px;
+}
+
+.minimizeBtn {
+    position: absolute;
+    right: 30px;
+    top: 4px;
+}
+.maximizeBtn {
+    position: absolute;
+    right: 30px;
+    top: 4px;
+}
+.floatingPaneIcon {
+    position: absolute;
+    left: 5px;
+    top: 6px;
+    width:16px;
+    height:16px;
+    background-image: url("../images/searchicon.png");
+    background-repeat: no-repeat;
+}
+.paneTitleText {
+    position: relative;
+    left: 25px;
+    top: 0px;
+}
+
+.toolbarButton {
+    -moz-user-select: none;
+    background-color:rgba(0,0,0,0.0);
+    border: 1px solid #666666;
+    -moz-border-radius-topleft: 3px;
+	-moz-border-radius-topright:3px;
+	-moz-border-radius-bottomleft:3px;
+	-moz-border-radius-bottomright:3px;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-top-right-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-webkit-border-bottom-right-radius:3px;
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+	border-bottom-left-radius:3px;
+	border-bottom-right-radius:3px;
+    cursor: pointer;
+    padding: 0px; 
+    width: 29.5px;
+    height: 30px;
+}
+.toolbarButtonIcon {
+	width: 29.5px;
+    height: 30px;
+    padding: 0px;
+    background-color:rgba(0,0,0,0.0);
+}
+.toolbarButton .dijitButtonNode {
+    border: none;
+    background-color: rgba(0,0,0,0.0);
+    padding: 0px;   
+}
+
+/*floating widget styles (end)*/
+
+/*Smartphone (landscape) */
+@media all and (max-width: 480px) 
+{
+	.claro .esriSimpleSlider{
+		top:80px;
+		left:5px;
+	}
+	
+	#mapDiv .tabWidgetDiv._1
+	{
+		top:80px;
+	}
+	
+	#mapDiv .tabWidgetDiv._2
+	{	
+		top:112px;
+	}
+	#mapDiv .tabWidgetDiv._3
+	{	
+		top:144px;
+	}
+	#mapDiv .tabWidgetDiv._4
+	{	
+		top:176px;
+	}
+	#mapDiv .tabWidgetDiv._5
+	{
+		top:2px;
+	}
+	#mapDiv #toolbarWidgetDiv
+	{
+		right:0px;
+	}
+
+}
+@media all and (max-width: 400px) 
+{
+	
+}
+/*Smartphone (portrait) */
+@media all and (max-width: 320px) 
+{
+		
+	
+
+}
