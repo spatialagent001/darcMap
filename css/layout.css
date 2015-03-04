@@ -20,7 +20,14 @@ html,body {
 {
 	font-family: 'Satisfy', cursive !Important;
 }
-
+.abel
+{
+	font-family: 'Abel' !Important;
+}
+.ptSansNarrow
+{
+	font-family: 'PT Sans Narrow', sans-serif !Important;
+}
 
 /* map Styles (start)*/
 #mapDiv {

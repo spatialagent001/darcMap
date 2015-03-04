@@ -34,12 +34,16 @@
                "label":"Title Font:",
                "options":[
                   {
+                     "label":"Abel",
+                     "value":"abel"
+                  },
+                  {
                      "label":"Englebert",
                      "value":"englebert"
                   },
                   {
-                     "label":"Abel",
-                     "value":"abel"
+                     "label":"Satisfy",
+                     "value":"satisfy"
                   },
                   {
                      "label":"Open Sans",
@@ -58,12 +62,16 @@
                "label":"Widget Font:",
                "options":[
                   {
+                     "label":"Abel",
+                     "value":"abel"
+                  },
+                  {
                      "label":"Englebert",
                      "value":"englebert"
                   },
                   {
-                     "label":"Abel",
-                     "value":"abel"
+                     "label":"Satisfy",
+                     "value":"satisfy"
                   },
                   {
                      "label":"Open Sans",
@@ -187,7 +195,7 @@
     	"layersWidgetEnabled":true,
     	"searchWidgetEnabled":true,
     	"themefont":"englebert",
-        "widgetfont":"openSans",
+        "widgetfont":"opensans",
         "overideType":""
     }
 }
