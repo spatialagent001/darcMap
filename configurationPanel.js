@@ -128,6 +128,25 @@
                "label":"Tab Widget top offset:",
                "tooltip":"no header 0, with header 41",
                "placeHolder":"41"
+            },
+            {
+               "type":"string",
+               "fieldName":"overideType",
+               "label":"Widget Type:",
+               "options":[
+                  {
+                     "label":"",
+                     "value":""
+                  },
+                  {
+                     "label":"Tabbed Widget",
+                     "value":"tab"
+                  },
+                  {
+                     "label":"Floating Widget",
+                     "value":"float"
+                  }
+               ]
             }	
          ]
     	},
@@ -159,7 +178,7 @@
         
     }],
     "values": {
-    	"theme":"blue",
+    	"theme":"black",
     	"headerEnabled":true,
     	"legendEnabled":true,
     	"baseswitcherEnabled":true,
@@ -167,8 +186,8 @@
     	"geolocationEnabled":true,
     	"layersWidgetEnabled":true,
     	"searchWidgetEnabled":true,
-    	"addStreamLayer":false,
     	"themefont":"englebert",
-        "widgetfont":"openSans"
+        "widgetfont":"openSans",
+        "overideType":""
     }
 }

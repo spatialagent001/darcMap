@@ -82,7 +82,7 @@
 .widget_Layers_ui .service_renderer .layer_name {
 	margin: 0;
 	padding: 0;
-	font-size: 16px;
+	font-size: 14px;
 	display: inline-block;
 	vertical-align: middle;
 }
@@ -145,7 +145,7 @@
 
 .widget_layers_ui .layer_renderer .layer_name {
 	padding: 0px;
-	font-size: 17px;
+	font-size: 15px;
 	font-weight: normal;
 	display: inline-block;
 	vertical-align: middle;
@@ -153,4 +153,11 @@
 /* Responsive Design Media Queries*/
 /*Smartphone (portrait) */
 @media all and (max-width: 360px) {
+	.widget_layers_ui .layer_renderer .layer_name {
+		max-width:180px;
+	}
+	
+	.widget_Layers_ui .service_renderer .layer_name {
+		max-width:180px;
+	}
 }

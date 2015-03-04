@@ -4,7 +4,7 @@ define(["config/webmap"], function(webmap) {
     //and url parameters.
     var defaults = {
         "appid": "",
-        //"webmap": "96ed04e65d05429fb5a94332b7f8dde5", // "", "3cba0fe5fae04660baa7418b609d03f9"
+        //"webmap": "96ed04e65d05429fb5a94332b7f8dde5", // "", "3cba0fe5fae04660baa7418b609d03f9","27c9ecee70ef43f28bbd550f838428de"
         "webmap":"27c9ecee70ef43f28bbd550f838428de",   
         "oauthappid": null, //"AFTKRmv16wj14N3z",
         //Group templates must support a group url parameter. This will contain the id of the group. 
@@ -38,8 +38,9 @@ define(["config/webmap"], function(webmap) {
     	"extentWidgetEnabled":false,
     	"searchWidgetEnabled":true,
     	"layersWidgetEnabled":true,
+    	"timeWidgetEnabled":false,
     	"starterWidgetEnabled":false,
-    	"overideType":"",
+    	"overideType":"tab",
     	widgets:
 		{
 			header:
@@ -51,7 +52,7 @@ define(["config/webmap"], function(webmap) {
 			legend:
 			{
 				title:'Legend',
-				type:"tab",
+				type:"float",
 				parentid:'legendWidgetDiv',
 				floatHeight:480,
 				floatWidth:360,
