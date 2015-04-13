@@ -6,7 +6,7 @@ Use the Starter Widget as a template to create a new widget.  Follow these steps
 2) open the widget.js file and change the baseClass property following the naming convention 'widget_[Widget Folder Name]' (ie 'widget_Legend')
 3) open the widget.css file and perform a find and replace.  Replace the string widget_Starter with the baseClass name used in step 2
 
-the next set files are located ib the js folder
+the next set of files are located in the js folder
 4) open the default.js file (this is the configuration) and add a widget configuration by copying the starter and change the title and parentid.  The parentid whould be unique a unique name, you can follow the naming convention '[Widget folder Name]WidgetDiv'.
 5) add an enabled statement like using naming convention '[Widget Folder Name]Enabled' (ie "searchEnabled":true) 
 6) open the main.js file and add the new widget class to the define statement at the top of the page.  Add "widgets/[Widget Folder Name]/widget".  In the 
