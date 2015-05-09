@@ -113,10 +113,6 @@ define(["config/webmap"], function(webmap) {
 				type:'button',
 				parentid:'geoLocationWidgetDiv'
 			},
-			time:
-			{
-				
-			},
 			starter:
 			{
 				title:'Starter Widget',
