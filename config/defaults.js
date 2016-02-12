@@ -37,7 +37,6 @@ define(["config/webmap"], function(webmap) {
     	"extentWidgetEnabled":false,
     	"searchWidgetEnabled":true,
     	"layersWidgetEnabled":true,
-    	"timeWidgetEnabled":false,
     	"starterWidgetEnabled":false,
     	"overideType":"tab",
     	widgets:

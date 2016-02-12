@@ -76,12 +76,13 @@
     	onSelect:function(evt)
     	{
     		var query = new Query();
-    		query.where = "Stadium = '"+evt.item.title+"'";
+    		query.where = "team = '"+evt.item.title+"'";
     		query.returnGeometry = true;
 		    query.outFields = "";
 		    query.outSpatialReference = this.map.spatialReference;
     		var self = this;
-    		var queryTask = new QueryTask("http://services.arcgis.com/BG6nSlhZSAWtExvp/arcgis/rest/services/stadia/FeatureServer/0");
+    		var queryTask = new QueryTask("http://services.arcgis.com/0hWR1h1PHFoPztOo/arcgis/rest/services/NFL_Staduims/FeatureServer/0");
+    		//var queryTask = new QueryTask("http://services.arcgis.com/BG6nSlhZSAWtExvp/arcgis/rest/services/stadia/FeatureServer/0");
     		queryTask.execute(query, function(results)
     		{
     			var geom=null;
@@ -95,7 +96,7 @@
     	},
     	getList:function()
     	{
-    		var url="http://services.arcgis.com/BG6nSlhZSAWtExvp/arcgis/rest/services/stadia/FeatureServer/0/query?where=FID+>0&outFields=Stadium&returnGeometry=false&f=pjson";
+    		var url="http://services.arcgis.com/0hWR1h1PHFoPztOo/arcgis/rest/services/NFL_Staduims/FeatureServer/0/query?where=FID+>0&outFields=team&returnGeometry=false&f=pjson";
     		var request = esriRequest({url:url,handleAs:"json"});
     		var self = this;
     		request.then(
@@ -111,7 +112,7 @@
 		  {
 		  	for (var i = 0; i < data.features.length; i++) 
 			{
-				this.list.add({"title":data.features[i].attributes["Stadium"],"feature":data.features[i]});
+				this.list.add({"title":data.features[i].attributes["team"],"feature":data.features[i]});
 			}
 		  }
         });
